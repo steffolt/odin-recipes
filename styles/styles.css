@@ -1,25 +1,28 @@
+/* My web */
 *{
     margin:0;
 }
+#my-web{
+    width: 100%;
+    height: 100%;
+}
+/* Header */
 .logo{
-    width: 173px;
-    height: 153px;
+    width: 120px;
     flex-shrink: 0;
 }
 .header{
-    margin:0px 150px;
-    background-color: red;
+    margin:0px 135px;
 }
 .header p{
     display: inline-block;
 }
 .Odin-title2,
 .Odin-title{
-
     text-transform: uppercase;
     color: #000;
     text-align: center;
-    font-size: 48px;
+    font-size: 38px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -32,21 +35,20 @@
 .Odin-title2{
     font-family: "Mouse Memoirs";
     letter-spacing: 6.48px;
-    margin-left: 5px;
 }
 
 .title-section{
     vertical-align: top;
     display:inline-block;
     width: 151px;
-    height: 153px;
+    height: 100%;
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
 }
 .title-items{
     vertical-align: top;
-    padding: 65px 0px 65px 688.5px;
+    padding: 50px 0px 50px 290px;
     color: #000;
     text-align: center;
     font-family: Inter;
@@ -64,4 +66,17 @@
 .last-item{
     padding-left:0px;
     margin-right: 0px;
+}
+
+/* Search section */
+.search-section{
+    background-color: #000;
+    width: 100%;
+    height: 100px; 
+}
+.center-information{
+    margin:0px 200px;
+    padding-top: 48px;
+    vertical-align: middle;
+    background-color: red;
 }
