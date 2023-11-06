@@ -1,0 +1,67 @@
+*{
+    margin:0;
+}
+.logo{
+    width: 173px;
+    height: 153px;
+    flex-shrink: 0;
+}
+.header{
+    margin:0px 150px;
+    background-color: red;
+}
+.header p{
+    display: inline-block;
+}
+.Odin-title2,
+.Odin-title{
+
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.Odin-title{
+    font-family: Moul;
+    letter-spacing: -0.48px;
+}
+.Odin-title2{
+    font-family: "Mouse Memoirs";
+    letter-spacing: 6.48px;
+    margin-left: 5px;
+}
+
+.title-section{
+    vertical-align: top;
+    display:inline-block;
+    width: 151px;
+    height: 153px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.title-items{
+    vertical-align: top;
+    padding: 65px 0px 65px 688.5px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.44px;
+    text-transform: uppercase;
+    margin-right: 68px;
+}
+.item{
+    padding-left:0px;
+}
+.last-item{
+    padding-left:0px;
+    margin-right: 0px;
+}
